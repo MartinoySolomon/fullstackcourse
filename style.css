@@ -1,0 +1,97 @@
+html{
+    font-size: 18px;
+    font-family: 'Heebo', 'tahoma', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #ffb3e0;
+    color: #ffffff;
+}
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: #ffb3e0;
+}
+span:hover{
+    color: #5f023a;
+    background-color: transparent;
+}
+.contact{
+    text-align: right;
+    margin: 10px;
+}
+a:link , a:visited , a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #66013d;
+}
+.photo{
+    width: 20vw;
+    border-radius: 20px;
+}
+h3{
+    font-size: 1rem;
+    font-style: italic;
+}
+.menu{
+    background-color: #f779c4;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+.about{
+    background-color: #e056a9;
+    padding: 10px calc((100% - 1000px)/2);
+    display: flex;
+}
+.about div{
+    text-align: right;
+    justify-content: space-evenly;
+}
+#mywork{
+    background-color: #b46293;
+}
+.mywork{
+    padding: 10px calc((100% - 1000px)/2);
+    display: flex;
+    justify-content: space-evenly;
+}
+.mywork div{
+    text-align: right;
+    padding: 15px;
+    margin: 20px;
+}
+fieldset{
+    border: 0px;
+    max-width: 20vw;
+    margin: 0 auto;
+}
+button{
+    width: 80px;
+    height: 30px;
+}
+input{
+    background-color: #ffb3e0;
+    border: 0px;
+}
+.form{
+    border-bottom: 3px solid #ffffff;
+}
+textarea{
+    width: 20vw;
+    height: 100px;
+}
+#whatsapp{
+    font-size: 3rem;
+    position: fixed;
+    left: calc(5% - 1.5rem);
+    top: calc(95% - 3rem);
+}
+#arrow{
+    font-size: 2rem;
+}
