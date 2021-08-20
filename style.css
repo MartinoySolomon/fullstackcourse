@@ -1,0 +1,218 @@
+html{
+    font-size: 14px;
+    font-family: 'poppins', 'tahoma', sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+.top{
+    color: #ffffff;
+    border-radius: 6px;
+    background-image: url('img/mobile.png');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 95vw;
+    height: 28.28rem;
+    margin: 1rem;
+}
+.headline{
+    font-weight: 700;
+    font-size: 3.42rem;
+    line-height: 3.5rem;
+    margin-top: 3.4rem;
+    margin-left: 2rem;
+    margin-bottom: 8.5rem;
+}
+.slogan p{
+    display: none;
+}
+.button{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-color: #DB4700;
+    border-radius: 6px;
+    margin: 0 0.7rem;
+    padding: 1.2rem 0.6rem;
+}
+.button:first-of-type{
+    margin-left: 2rem;
+}
+.buttons{
+    display: flex;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    display: inline-block;
+    margin: 2rem 1rem;
+}
+.product_img{
+    background-color: #A7A7A7;
+    width: 10rem;
+    height: 10rem;
+}
+.product_type{
+    display: block;
+    color: #A7A7A7;
+    font-size: 0.7rem;
+}
+.product_name{
+    display: block;
+    color: #000000;
+    font-size: 1rem;
+}
+.old_price{
+    color: #000000;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.new_price{
+    text-decoration: none;
+    color: #DB4700;
+    font-size: 1rem;
+}
+.designer{
+    display: block;
+    color: #000000;
+    font-size: 0.7rem;
+}
+.discover{
+    color: #ffffff;
+    background-image: url('img/discoverbg.png');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 100vw;
+    min-height: 22.42rem;
+    margin: 0;
+    text-align: center;
+}
+.discover_headline{
+    font-size: 3.42rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    margin-top: 4.28rem;
+}
+.text{
+    display: block;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.7rem;
+}
+.white_button{
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #DB4700;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 0.71rem 1.2rem;
+}
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 0 auto;
+    }
+    .top{
+        background-image: url('img/desktop.png');
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        width: 95vw;
+        height: 59.5rem;
+    }
+    .headline{
+        font-weight: 700;
+        font-size: 10.7rem;
+        line-height: 9.04rem;
+        margin-top: 14rem;
+        margin-left: 8.2rem;
+        margin-bottom: 4rem;
+    }
+    .slogan p{
+        display: inline-block;
+        margin-left: 8.2rem;
+        width: 38.2rem;
+        font-size: 2.14rem;
+    }
+    .button{
+        font-size: 2.14rem;
+        line-height: 1rem;
+        margin: 0 2.28rem;
+        padding: 1.67rem 1.3rem;
+    }
+    .button:first-of-type{
+        margin-left: 8.2rem;
+    }
+    .coma{
+        display: none;
+    }
+    .shop{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        display: inline-block;
+        margin: 2rem 2.2rem;
+    }
+    .product_img{
+        background-color: #A7A7A7;
+        width: 26.14rem;
+        height: 26.14rem;
+    }
+    .product_type{
+        display: block;
+        color: #A7A7A7;
+        font-size: 1.71rem;
+    }
+    .product_name{
+        display: block;
+        color: #000000;
+        font-size: 1.71rem;
+    }
+    .old_price{
+        color: #000000;
+        font-size: 1.71rem;
+        text-decoration: line-through;
+    }
+    .new_price{
+        text-decoration: none;
+        color: #DB4700;
+        font-size: 1.71rem;
+    }
+    .designer{
+        display: block;
+        color: #000000;
+        font-size: 1rem;
+    
+    }
+    .discover{
+        background-image: url('img/discoverdesktop.png');
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        width: 100vw;
+        height: 30rem;
+        margin: 0;
+        text-align: center;
+    }
+    .discover_headline{
+        font-size: 5.14rem;
+        line-height: 5.04rem;
+        margin-top: 6rem;
+    }
+    .text{
+        font-size: 1.71rem;
+        margin-top: 1rem;
+    }
+    .white_button{
+        margin-top: 2.85rem;
+        font-size: 1.71rem;
+        padding: 1.35rem 2.28rem;
+    }
+}   
