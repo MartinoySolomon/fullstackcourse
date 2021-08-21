@@ -14,7 +14,7 @@ body{
     display: inline-block;
     width: 95vw;
     height: 28.28rem;
-    margin: 1rem;
+    margin: calc((100% - 95vw)/2);
 }
 .headline{
     font-weight: 700;
@@ -43,6 +43,7 @@ body{
     display: flex;
 }
 .shop{
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -130,7 +131,7 @@ body{
         font-weight: 700;
         font-size: 10.7rem;
         line-height: 9.04rem;
-        margin-top: 14rem;
+        margin-top: 10rem;
         margin-left: 8.2rem;
         margin-bottom: 4rem;
     }
@@ -153,6 +154,7 @@ body{
         display: none;
     }
     .shop{
+        justify-content: center;
         display: flex;
         flex-wrap: wrap;
     }
